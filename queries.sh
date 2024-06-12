@@ -1,4 +1,5 @@
 #!/bin/bash
+pg_dump -U freecodecamp worldcup > worldcup.sql
 
 PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c"
 
