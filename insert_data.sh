@@ -1,4 +1,5 @@
 #!/bin/bash
+pg_dump -U freecodecamp worldcup > worldcup.sql
 
 if [[ $1 == "test" ]]
 then
