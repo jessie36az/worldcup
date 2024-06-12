@@ -1,5 +1,6 @@
 #!/bin/bash
 pg_dump -U freecodecamp worldcup > worldcup.sql
+pg_dump -U freecodecamp worldcup > worldcup.sql
 
 -- PostgreSQL database dump
 
